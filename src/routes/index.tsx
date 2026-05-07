@@ -167,7 +167,52 @@ function Projects() {
       <div className="max-w-6xl mx-auto">
         <p className="text-xs tracking-widest font-mono uppercase text-primary mb-4">Projects</p>
         <h2 className="text-4xl md:text-5xl font-bold">Selected work.</h2>
-        <div className="mt-12 grid md:grid-cols-2 gap-6">
+
+        <article className="mt-12 group rounded-3xl overflow-hidden bg-card border border-border hover:border-primary/50 transition">
+          <div className="grid md:grid-cols-2 gap-0">
+            <div className="relative overflow-hidden bg-secondary">
+              <img
+                src={smartFarmImg}
+                alt="Smart Farm AI dashboard preview"
+                className="w-full h-full object-cover object-top group-hover:scale-[1.02] transition duration-500"
+              />
+              <span className="absolute top-4 left-4 px-3 py-1 rounded-full bg-gradient-brand text-primary-foreground text-xs font-semibold shadow-glow">
+                Featured
+              </span>
+            </div>
+            <div className="p-8 md:p-10 flex flex-col justify-center">
+              <div className="flex items-start justify-between gap-4">
+                <h3 className="text-3xl font-bold">Smart Farm AI</h3>
+                <ExternalLink className="w-5 h-5 text-muted-foreground group-hover:text-primary transition shrink-0" />
+              </div>
+              <p className="mt-4 text-muted-foreground leading-relaxed">
+                AI-powered farm management platform with crop recommendation, animal weight tracking,
+                fruit quality analysis, and real-time IoT sensor reports. Graduation project — Faculty
+                of Cairo Higher Institute.
+              </p>
+              <div className="mt-6 grid grid-cols-4 gap-3 text-center">
+                {[
+                  { v: "10K+", l: "Active Farms" },
+                  { v: "50+", l: "AI Models" },
+                  { v: "99%", l: "Accuracy" },
+                  { v: "24/7", l: "Support" },
+                ].map((s) => (
+                  <div key={s.l} className="p-2 rounded-lg bg-secondary border border-border">
+                    <div className="text-sm font-bold text-gradient">{s.v}</div>
+                    <div className="text-[10px] text-muted-foreground mt-0.5">{s.l}</div>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-6 flex flex-wrap gap-2">
+                {["AI/ML", "IoT", "React", "Dashboard"].map((t) => (
+                  <span key={t} className="px-3 py-1 rounded-full bg-secondary text-xs text-muted-foreground">{t}</span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div className="mt-6 grid md:grid-cols-2 gap-6">
           {projects.map((p) => (
             <article key={p.title} className="group p-8 rounded-2xl bg-card border border-border hover:border-primary/50 transition">
               <div className="flex items-start justify-between">
