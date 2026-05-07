@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import saeedImg from "@/assets/saeed.jpg";
+import smartFarmImg from "@/assets/smart-farm.png";
 import { Github, Mail, Linkedin, ArrowRight, ExternalLink } from "lucide-react";
 
 export const Route = createFileRoute("/")({
