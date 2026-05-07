@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import saeedImg from "@/assets/saeed.jpg";
-import smartFarmImg from "@/assets/smart-farm.png";
+import smartFarmImg from "@/assets/sf-hero.png";
+import sfSignInImg from "@/assets/sf-signin.png";
+import sfCtaImg from "@/assets/sf-cta.png";
 import { Github, Mail, Linkedin, ArrowRight, ExternalLink, Download } from "lucide-react";
 
 export const Route = createFileRoute("/")({
@@ -173,15 +175,21 @@ function Projects() {
 
         <article className="mt-12 group rounded-3xl overflow-hidden bg-card border border-border hover:border-primary/50 transition">
           <div className="grid md:grid-cols-2 gap-0">
-            <div className="relative overflow-hidden bg-secondary">
-              <img
-                src={smartFarmImg}
-                alt="Smart Farm AI dashboard preview"
-                className="w-full h-full object-cover object-top group-hover:scale-[1.02] transition duration-500"
-              />
-              <span className="absolute top-4 left-4 px-3 py-1 rounded-full bg-gradient-brand text-primary-foreground text-xs font-semibold shadow-glow">
-                Featured
-              </span>
+            <div className="relative overflow-hidden bg-secondary p-4 flex flex-col gap-3">
+              <div className="relative rounded-2xl overflow-hidden border border-border">
+                <img
+                  src={smartFarmImg}
+                  alt="Smart Farm AI landing page"
+                  className="w-full h-auto object-cover object-top group-hover:scale-[1.02] transition duration-500"
+                />
+                <span className="absolute top-4 left-4 px-3 py-1 rounded-full bg-gradient-brand text-primary-foreground text-xs font-semibold shadow-glow">
+                  Featured
+                </span>
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                <img src={sfSignInImg} alt="Smart Farm AI sign in" className="w-full h-32 object-cover object-top rounded-xl border border-border" />
+                <img src={sfCtaImg} alt="Smart Farm AI call to action" className="w-full h-32 object-cover object-center rounded-xl border border-border" />
+              </div>
             </div>
             <div className="p-8 md:p-10 flex flex-col justify-center">
               <div className="flex items-start justify-between gap-4">
