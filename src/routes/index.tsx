@@ -93,6 +93,9 @@ function Hero() {
             <a href="#projects" className="border border-border font-semibold px-6 py-3 rounded-full hover:bg-secondary transition inline-flex items-center gap-2">
               View Work <ArrowRight className="w-4 h-4" />
             </a>
+            <a href="/SaeedAli_CV.pdf" download className="border border-border font-semibold px-6 py-3 rounded-full hover:bg-secondary transition inline-flex items-center gap-2">
+              <Download className="w-4 h-4" /> Download CV
+            </a>
           </div>
         </div>
         <div className="flex justify-center md:justify-end">
