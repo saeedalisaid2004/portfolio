@@ -35,12 +35,6 @@ const stats = [
   { value: "∞", label: "Cups of coffee" },
 ];
 
-const projects = [
-  { title: "Design System Kit", desc: "Reusable React + TS component library with theming and a11y baked in.", tags: ["React", "TypeScript", "Storybook"] },
-  { title: "Realtime Dashboard", desc: "API-driven analytics dashboard with charts, filters, and live updates.", tags: ["Next.js", "GraphQL", "Tailwind"] },
-  { title: "Motion Landing", desc: "High-conversion marketing site with rich micro-interactions.", tags: ["React", "Framer Motion"] },
-  { title: "Headless Commerce", desc: "Pixel-precise storefront wired to a headless backend.", tags: ["Next.js", "TypeScript"] },
-];
 
 function Nav() {
   return (
