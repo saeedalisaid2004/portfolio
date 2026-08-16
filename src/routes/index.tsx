@@ -35,12 +35,6 @@ const stats = [
   { value: "∞", label: "Cups of coffee" },
 ];
 
-const projects = [
-  { title: "Design System Kit", desc: "Reusable React + TS component library with theming and a11y baked in.", tags: ["React", "TypeScript", "Storybook"] },
-  { title: "Realtime Dashboard", desc: "API-driven analytics dashboard with charts, filters, and live updates.", tags: ["Next.js", "GraphQL", "Tailwind"] },
-  { title: "Motion Landing", desc: "High-conversion marketing site with rich micro-interactions.", tags: ["React", "Framer Motion"] },
-  { title: "Headless Commerce", desc: "Pixel-precise storefront wired to a headless backend.", tags: ["Next.js", "TypeScript"] },
-];
 
 function Nav() {
   return (
@@ -223,22 +217,6 @@ function Projects() {
           </div>
         </article>
 
-        <div className="mt-6 grid md:grid-cols-2 gap-6">
-          {projects.map((p) => (
-            <article key={p.title} className="group p-8 rounded-2xl bg-card border border-border hover:border-primary/50 transition">
-              <div className="flex items-start justify-between">
-                <h3 className="text-2xl font-bold">{p.title}</h3>
-                <ExternalLink className="w-5 h-5 text-muted-foreground group-hover:text-primary transition" />
-              </div>
-              <p className="mt-3 text-muted-foreground">{p.desc}</p>
-              <div className="mt-6 flex flex-wrap gap-2">
-                {p.tags.map((t) => (
-                  <span key={t} className="px-3 py-1 rounded-full bg-secondary text-xs text-muted-foreground">{t}</span>
-                ))}
-              </div>
-            </article>
-          ))}
-        </div>
       </div>
     </section>
   );
