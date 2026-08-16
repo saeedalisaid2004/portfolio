@@ -232,7 +232,7 @@ function Contact() {
 
         </p>
         <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
-          If you need a frontend engineer who thinks about architecture, performance, and maintainability together, let's connect.
+          If you need a frontend developer who thinks about architecture, performance, and maintainability together, let's connect.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
           <a href="mailto:saeedalisaid2004@gmail.com" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-brand text-primary-foreground font-semibold shadow-glow hover:opacity-90 transition">
