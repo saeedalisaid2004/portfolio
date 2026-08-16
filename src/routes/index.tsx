@@ -8,10 +8,10 @@ import { Github, Mail, Linkedin, ArrowRight, ExternalLink, Download } from "luci
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Saeed Ali — Frontend Engineer" },
-      { name: "description", content: "Frontend engineer focused on React, TypeScript, and clean component architecture." },
-      { property: "og:title", content: "Saeed Ali — Frontend Engineer" },
-      { property: "og:description", content: "React & TypeScript engineer based in Cairo, Egypt." },
+      { title: "Saeed Ali — Frontend Developer" },
+      { name: "description", content: "Frontend developer focused on React, TypeScript, and clean component architecture." },
+      { property: "og:title", content: "Saeed Ali — Frontend Developer" },
+      { property: "og:description", content: "React & TypeScript developer based in Cairo, Egypt." },
     ],
   }),
   component: Index,
@@ -61,17 +61,17 @@ function Hero() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center w-full">
         <div>
           <div className="flex items-center gap-3 mb-6 text-xs tracking-widest text-muted-foreground font-mono uppercase">
-            <span className="h-px w-10 bg-border" /> Frontend Engineer / Cairo, Egypt
+            <span className="h-px w-10 bg-border" /> Frontend Developer / Cairo, Egypt
           </div>
           <h1 className="text-6xl md:text-8xl font-extrabold leading-[0.95] tracking-tight">
             SAEED <span className="text-gradient">ALI</span>
           </h1>
           <p className="mt-4 text-xs tracking-widest text-muted-foreground font-mono uppercase">
-            Frontend Engineer / Cairo, Egypt
+            Frontend Developer / Cairo, Egypt
           </p>
           <p className="mt-8 text-lg text-foreground">Saeed Ali builds delightful frontend interfaces.</p>
           <p className="mt-4 text-muted-foreground max-w-md leading-relaxed">
-            Frontend engineer focused on React, TypeScript, and clean component architecture.
+            Frontend developer focused on React, TypeScript, and clean component architecture.
             I craft fast, scalable, and maintainable API-driven products with thoughtful UX and pixel-precise UI.
           </p>
           <div className="mt-6 flex flex-wrap gap-2">
@@ -228,7 +228,8 @@ function Contact() {
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold">Contact</h2>
         <p className="mt-6 text-muted-foreground text-lg">
-          Open to frontend engineering roles, internships, and collaboration on API-driven products.
+          Open to frontend development roles, internships, and collaboration on API-driven products.
+
         </p>
         <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
           If you need a frontend engineer who thinks about architecture, performance, and maintainability together, let's connect.
