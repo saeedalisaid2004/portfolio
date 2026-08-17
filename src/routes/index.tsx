@@ -170,7 +170,12 @@ function Projects() {
         <article className="mt-12 group rounded-3xl overflow-hidden bg-card border border-border hover:border-primary/50 transition">
           <div className="grid md:grid-cols-2 gap-0">
             <div className="relative overflow-hidden bg-secondary p-4 flex flex-col gap-3">
-              <div className="relative rounded-2xl overflow-hidden border border-border">
+              <a
+                href="https://smart-farm-front1.lovable.app"
+                target="_blank"
+                rel="noreferrer"
+                className="relative rounded-2xl overflow-hidden border border-border block group/img"
+              >
                 <img
                   src={smartFarmImg}
                   alt="Smart Farm AI landing page"
@@ -179,7 +184,8 @@ function Projects() {
                 <span className="absolute top-4 left-4 px-3 py-1 rounded-full bg-gradient-brand text-primary-foreground text-xs font-semibold shadow-glow">
                   Featured
                 </span>
-              </div>
+                <span className="absolute inset-0 bg-primary/0 group-hover/img:bg-primary/5 transition" />
+              </a>
               <div className="grid grid-cols-2 gap-3">
                 <img src={sfSignInImg} alt="Smart Farm AI sign in" className="w-full h-32 object-cover object-top rounded-xl border border-border" />
                 <img src={sfCtaImg} alt="Smart Farm AI call to action" className="w-full h-32 object-cover object-center rounded-xl border border-border" />
