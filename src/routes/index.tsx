@@ -20,17 +20,14 @@ export const Route = createFileRoute("/")({
 const skills = [
   { name: "React", level: 95 },
   { name: "TypeScript", level: 92 },
-  { name: "Next.js", level: 88 },
   { name: "Tailwind CSS", level: 96 },
   { name: "Framer Motion", level: 85 },
   { name: "Node.js", level: 80 },
-  { name: "GraphQL", level: 75 },
-  { name: "Figma", level: 82 },
+  { name: "Python", level: 78 },
+  { name: "Flutter", level: 75 },
 ];
 
 const stats = [
-  { value: "5+", label: "Years experience" },
-  { value: "40+", label: "Projects shipped" },
   { value: "20+", label: "Happy clients" },
   { value: "∞", label: "Cups of coffee" },
 ];
