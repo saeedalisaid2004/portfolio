@@ -213,6 +213,24 @@ function Projects() {
                   <span key={t} className="px-3 py-1 rounded-full bg-secondary text-xs text-muted-foreground">{t}</span>
                 ))}
               </div>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <a
+                  href="https://smart-farm-front1.lovable.app"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 bg-gradient-brand text-primary-foreground font-semibold px-6 py-3 rounded-full shadow-glow hover:opacity-90 transition"
+                >
+                  <ExternalLink className="w-4 h-4" /> Live Demo
+                </a>
+                <a
+                  href="https://github.com/saeedalisaid2004/smart-farm-front1"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 border border-border font-semibold px-6 py-3 rounded-full hover:bg-secondary transition"
+                >
+                  <Github className="w-4 h-4" /> Source Code
+                </a>
+              </div>
             </div>
           </div>
         </article>
