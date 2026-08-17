@@ -8,9 +8,9 @@ import { Github, Mail, Linkedin, ArrowRight, ExternalLink, Download } from "luci
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Saeed Ali — Frontend Developer" },
-      { name: "description", content: "Frontend developer focused on React, TypeScript, and clean component architecture." },
-      { property: "og:title", content: "Saeed Ali — Frontend Developer" },
+      { title: "Saeed Ali — Fresh Graduated" },
+      { name: "description", content: "Fresh graduate focused on React, TypeScript, and clean component architecture." },
+      { property: "og:title", content: "Saeed Ali — Fresh Graduated" },
       { property: "og:description", content: "React & TypeScript developer based in Cairo, Egypt." },
     ],
   }),
@@ -61,13 +61,13 @@ function Hero() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center w-full">
         <div>
           <div className="flex items-center gap-3 mb-6 text-xs tracking-widest text-muted-foreground font-mono uppercase">
-            <span className="h-px w-10 bg-border" /> Frontend Developer / Cairo, Egypt
+            <span className="h-px w-10 bg-border" /> Fresh Graduated / Cairo, Egypt
           </div>
           <h1 className="text-6xl md:text-8xl font-extrabold leading-[0.95] tracking-tight">
             SAEED <span className="text-gradient">ALI</span>
           </h1>
           <p className="mt-4 text-xs tracking-widest text-muted-foreground font-mono uppercase">
-            Frontend Developer / Cairo, Egypt
+            Fresh Graduated / Cairo, Egypt
           </p>
           <p className="mt-8 text-lg text-foreground">Saeed Ali builds delightful frontend interfaces.</p>
           <p className="mt-4 text-muted-foreground max-w-md leading-relaxed">
