@@ -228,14 +228,6 @@ function Projects() {
                 >
                   <ExternalLink className="w-4 h-4" /> Live Demo
                 </a>
-                <a
-                  href="https://github.com/saeedalisaid2004/smart-farm-front1"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center gap-2 border border-border font-semibold px-6 py-3 rounded-full hover:bg-secondary transition"
-                >
-                  <Github className="w-4 h-4" /> Source Code
-                </a>
               </div>
             </div>
           </div>
