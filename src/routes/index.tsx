@@ -8,9 +8,9 @@ import { Github, Mail, Linkedin, ArrowRight, ExternalLink, Download } from "luci
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Saeed Ali — Frontend Developer" },
-      { name: "description", content: "Frontend developer focused on React, TypeScript, and clean component architecture." },
-      { property: "og:title", content: "Saeed Ali — Frontend Developer" },
+      { title: "Saeed Ali — Fresh Graduated" },
+      { name: "description", content: "Fresh graduate focused on React, TypeScript, and clean component architecture." },
+      { property: "og:title", content: "Saeed Ali — Fresh Graduated" },
       { property: "og:description", content: "React & TypeScript developer based in Cairo, Egypt." },
     ],
   }),
