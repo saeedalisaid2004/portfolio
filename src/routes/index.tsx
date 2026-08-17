@@ -251,13 +251,6 @@ function Contact() {
     <section id="contact" className="py-32 px-6 bg-radial-glow">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold">Contact</h2>
-        <p className="mt-6 text-muted-foreground text-lg">
-          Open to frontend development roles, internships, and collaboration on API-driven products.
-
-        </p>
-        <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
-          If you need a frontend developer who thinks about architecture, performance, and maintainability together, let's connect.
-        </p>
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
           <a href="mailto:saeedalisaid2004@gmail.com" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-brand text-primary-foreground font-semibold shadow-glow hover:opacity-90 transition">
             <Mail className="w-4 h-4" /> saeedalisaid2004@gmail.com
