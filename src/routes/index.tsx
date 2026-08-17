@@ -171,7 +171,7 @@ function Projects() {
           <div className="grid md:grid-cols-2 gap-0">
             <div className="relative overflow-hidden bg-secondary p-4 flex flex-col gap-3">
               <a
-                href="https://smart-farm-front1.lovable.app"
+                href="https://smart-farm-front1.saeedali.workers.dev/"
                 target="_blank"
                 rel="noreferrer"
                 className="relative rounded-2xl overflow-hidden border border-border block group/img"
@@ -221,7 +221,7 @@ function Projects() {
               </div>
               <div className="mt-8 flex flex-wrap gap-3">
                 <a
-                  href="https://smart-farm-front1.lovable.app"
+                  href="https://smart-farm-front1.saeedali.workers.dev/"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 bg-gradient-brand text-primary-foreground font-semibold px-6 py-3 rounded-full shadow-glow hover:opacity-90 transition"
