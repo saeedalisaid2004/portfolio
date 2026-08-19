@@ -68,8 +68,11 @@ function Hero() {
           </p>
           <p className="mt-8 text-lg text-foreground">Saeed Ali builds delightful frontend interfaces.</p>
           <p className="mt-4 text-muted-foreground max-w-md leading-relaxed">
-            Frontend developer focused on React, TypeScript, and clean component architecture.
-            I craft fast, scalable, and maintainable API-driven products with thoughtful UX and pixel-precise UI.
+            Computer Science graduate with a strong foundation in software development, programming, databases, and
+            problem-solving. Familiar with developing web applications and working with modern technologies and
+            development tools. A fast learner with strong analytical and teamwork skills, seeking an entry-level
+            opportunity to apply technical knowledge, gain professional experience, and contribute to real-world
+            software projects.
           </p>
           <div className="mt-6 flex flex-wrap gap-2">
             {["Cairo, Egypt", "React", "TypeScript"].map((t) => (
