@@ -70,9 +70,7 @@ function Hero() {
           <p className="mt-4 text-muted-foreground max-w-md leading-relaxed">
             Computer Science graduate with a strong foundation in software development, programming, databases, and
             problem-solving. Familiar with developing web applications and working with modern technologies and
-            development tools. A fast learner with strong analytical and teamwork skills, seeking an entry-level
-            opportunity to apply technical knowledge, gain professional experience, and contribute to real-world
-            software projects.
+            development tools. A fast learner with strong analytical and teamwork skills.
           </p>
           <div className="mt-6 flex flex-wrap gap-2">
             {["Cairo, Egypt", "React", "TypeScript"].map((t) => (
