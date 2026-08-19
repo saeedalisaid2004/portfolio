@@ -120,7 +120,8 @@ function About() {
             I specialize in turning complex problems into intuitive, performant interfaces. From design systems to micro-interactions, I obsess over every pixel and every millisecond.
           </p>
           <p className="text-muted-foreground leading-relaxed">
-            Currently focused on React, TypeScript, and modern animation — building products that feel as good as they look.
+            Seeking an entry-level opportunity to apply technical knowledge, gain professional experience, and
+            contribute to real-world software projects.
           </p>
         </div>
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
