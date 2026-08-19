@@ -141,16 +141,11 @@ function Skills() {
       <div className="max-w-6xl mx-auto">
         <p className="text-xs tracking-widest font-mono uppercase text-primary mb-4">Skills</p>
         <h2 className="text-4xl md:text-5xl font-bold">Tools of the trade.</h2>
-        <div className="mt-12 grid md:grid-cols-2 gap-x-12 gap-y-6">
+        <div className="mt-12 flex flex-wrap gap-3">
           {skills.map((s) => (
-            <div key={s.name}>
-              <div className="flex justify-between text-sm mb-2">
-                <span className="font-medium">{s.name}</span>
-              </div>
-              <div className="h-2 rounded-full bg-secondary overflow-hidden">
-                <div className="h-full bg-gradient-brand rounded-full" style={{ width: `${s.level}%` }} />
-              </div>
-            </div>
+            <span key={s.name} className="px-5 py-2.5 rounded-full bg-secondary border border-border text-sm font-medium hover:border-primary/50 hover:text-primary transition">
+              {s.name}
+            </span>
           ))}
         </div>
       </div>
