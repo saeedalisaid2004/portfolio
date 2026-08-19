@@ -146,7 +146,6 @@ function Skills() {
             <div key={s.name}>
               <div className="flex justify-between text-sm mb-2">
                 <span className="font-medium">{s.name}</span>
-                <span className="text-muted-foreground font-mono">{s.level}%</span>
               </div>
               <div className="h-2 rounded-full bg-secondary overflow-hidden">
                 <div className="h-full bg-gradient-brand rounded-full" style={{ width: `${s.level}%` }} />
