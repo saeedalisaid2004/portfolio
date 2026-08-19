@@ -21,7 +21,7 @@ const skills = [
   { name: "React", level: 95 },
   { name: "TypeScript", level: 92 },
   { name: "Tailwind CSS", level: 96 },
-  { name: "Framer Motion", level: 85 },
+  { name: "SQL", level: 85 },
   { name: "Node.js", level: 80 },
   { name: "Python", level: 78 },
   { name: "Flutter", level: 75 },
